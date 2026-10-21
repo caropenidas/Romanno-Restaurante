@@ -1,52 +1,142 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Rufina Cafe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Romanno Restaurante</title>
 </head>
 <body>
-    <header>
+    <header class="header_menu">
         <!-- LOGO -->
 
-        <img src="../assets/logo.png" alt="logo"/>
+        <img src="../assets/logoromanno.png" class="logo" alt="Logo Romanno"/>
         
         <!-- NABAR -->
         <nav>
-            <ul>
-                <li><a href="../index.html">inicio</a></li>
-                <li><a href="./nosotros.html">nosotros</a></li>
-                <li><a href="#galeria">galeria</a></li>
-                <li><a href="./menu.html">menu</a></li>
-                <li><a href="./contacto.html">contacto</a></li>
+            <ul class="nav_menu">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./reservas.html">Reservas</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="../assets/carta_romanno.pdf" target="_blank">Carta</a></li>
+                <li><a href="./nuestra_cava.html">Nuestra Cava</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <div>
+            <section id="galeria" class="texto_galeria">
+                <h1>Viví la experiencia Romanno</h1>
+                <p>Cada detalle, cada plato, cada sabor, tiene como fin hacerte sentir especial en todo momento.</p>
+            </section>
+                
+            <section class="foto_galeria">
+                <figure>
+                    <img src="../assets/salon1.jpg" alt="La mesa está lista"/>
+                </figure>
+                <figure>
+                    <img src="../assets/salon2.jpg" alt="Nuestra barra"/>
+                </figure>
+                <figure>
+                    <img src="../assets/salon6.jpg" alt="Arañas colgantes que se destacan"/>
+                </figure>
+                <figure>
+                    <img src="../assets/salon7.jpg" alt="El salón listo"/>
+                </figure>
+                <figure>
+                    <img src="../assets/tragos3.jpg" alt="Espumante"/>
+                </figure>
+                <figure>
+                    <img src="../assets/tragos4.jpg" alt="Vino malbec"/>
+                </figure>
+                <figure>
+                    <img src="../assets/tragos5.jpg" alt="Aperol Spritz"/>
+                </figure>
+                <figure>
+                    <img src="../assets/salon8.jpg" alt="Desde puerta de entrada, cada detalle cuenta"/>
+                </figure>
+                <figure>
+                    <img src="../assets/gastronomia1.jpg" alt="Burrata con carpaccio de tomates"/>
+                </figure>
+                <figure>
+                    <img src="../assets/gastronomia2.jpg" alt="Matambre con ensalada rusa"/>
+                </figure>
+                <figure>
+                    <img src="../assets/gastronomia3.jpg" alt="Ensalada Caesar"/>
+                </figure>
+                <figure>
+                    <img src="../assets/gastronomia4.jpg" alt="Volcán de chocolate con helado"/>
+                </figure>
+                <figure>
+                    <img src="../assets/gastronomia5.jpg" alt="Tortilla española"/>
+                </figure>
+                <figure>
+                    <img src="../assets/gastronomia8.jpg" alt="Flan casero con dulce de leche y crema"/>
+                </figure>
+                <figure>
+                    <img src="../assets/gastronomia9.jpg" alt="Affogato"/>
+                </figure>
+                <figure>
+                    <img src="../assets/tragos1.jpg" alt="Trago Green Garden"/>
+                </figure>
+                <figure>
+                    <img src="../assets/tragos2.jpg" alt="Limonada"/>
+                </figure>
+                <figure>
+                    <img src="../assets/salon5.jpg" alt="Destellos que iluminan el salón"/>
+                </figure>
+                <figure>
+                    <img src="../assets/salon3.jpg" alt="Arañas colgantes"/>
+                </figure>
+                <figure>
+                    <img src="../assets/salon4.jpg" alt="Arañas colgantes"/>
+                </figure>
 
-        <section id="galeria">
-            <img src="../assets/2503e976192103f1002cf817d3309cd6.jpg" alt="Foto Rufina 1"/>
-            <img src="../assets/adb64f11eae0d19ba12b926edaa4ec5e.jpg" alt="Foto Rufina 2"/>
-            <br>
-            <img src="../assets/cafeteria-historica-detalles-arquitectonicos-1.webp" alt="Foto Rufina 3"/>
-            <br>
-            <img src="../assets/OIP.jpg" alt="Foto Rufina 4"/>
-        </section>
+            </section>
+        </div>
 
     </main>
 
     <!--FOOTER-->
     <footer>
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <h3>¿Dónde nos encontras?</h3>
-            <p>Estamos ubicados en Av. Callao 248, Ciudad Autónoma de Buenos Aires</p>
-            <h3>Escribinos</h3>
-            <p>Whatsapp: +54 9 11 3314-2064</p>
-            <p>contacto@rufinacafe.com.ar</p>
-            <h3>Llamanos</h3>
-            <p>Teléfono: 4389-6519</p>
-        </section>
-        <p>Copyright 2026 Rufina Café. Todos los derechos reservados.</p>
+        <div class="columnas_footer">
+            <section>
+                <figure>
+                    <img src="../assets/logoromanno.png" class="logo" alt="Logo Romanno"/>
+                </figure>
+            </section>
+            <section>
+                <ul class="ul_footer">
+                    <li>Dirección: Av. Callao 248. Ciudad Autónoma de Buenos Aires</li>
+                    <li>Whatsapp: +54 9 11 1168-9543</li>
+                    <li>Martes a Domingos de 08:00 a 00:00 hs</li>
+                </ul>
+            </section>
+            <section>  
+                <ul class="ul_footer">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./reservas.html">Reservas</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="../assets/carta_romanno.pdf" target="_blank">Carta</a></li>
+                    <li><a href="./nuestra_cava.html">Nuestra Cava</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </section>
+            <section>
+                <a href="https://www.instagram.com/" target="_blank"><img src="../assets/instagram.png" class="logo_redes" alt="Instagram Romanno"/></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="../assets/facebook.png" class="logo_redes" alt="Facebook Romanno"/></a>
+                <a href="https://www.tiktok.com/" target="_blank"><img src="../assets/tiktok.png" class="logo_redes" alt="TikTok Romanno"/></a>
+            
+            </section>
+        </div>
+        <section class="copyright">
+            <p>Copyright 2026 Romanno Restaurante. Todos los derechos reservados.</p>
+        </section>    
     </footer>
 </body>
 </html>

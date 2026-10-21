@@ -1,47 +1,112 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Rufina Cafe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Romanno Restaurante</title>
 </head>
 <body>
-    <header>
+    <header class="header_menu">
         <!-- LOGO -->
 
-        <img src="assets/logo.png" alt="logo"/>
+        <img src="assets/logoromanno.png" class="logo" alt="Logo Romanno"/>
 
 
         <!-- NABAR -->
         <nav>
-            <ul>
-                <li><a href="#inicio">inicio</a></li>
-                <li><a href="./pages/nosotros.html">nosotros</a></li>
-                <li><a href="./pages/galeria.html">galeria</a></li>
-                <li><a href="./pages/menu.html">menu</a></li>
-                <li><a href="./pages/contacto.html">contacto</a></li>
+            <ul class="nav_menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="./pages/reservas.html">Reservas</a></li>
+                <li><a href="./pages/galeria.html">Galería</a></li>
+                <li><a href="./assets/carta_romanno.pdf" target="_blank">Carta</a></li>
+                <li><a href="./pages/nuestra_cava.html">Nuestra Cava</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
+
         <section id="inicio">
-             <img src="assets/Débora Basile (1).jpg" alt="imagen inicio"/>
+            <figure>
+             <img src="assets/inicio1.jpg" class="imagen_inicio" alt="Bienvenidos a Romanno"/>
+            </figure>
         </section>
+
+        <div class="cuerpo_pagina">
+
+            <section class="inicio_puchero">   
+                <div>
+                    <h1>Un clásico de la gastronomía Argentina</h1>
+                    <p>
+                        En Romanno creemos que la buena cocina es mucho más que una combinación de sabores. Es tradición, dedicación y el placer de compartir una mesa. Nuestra propuesta gastronómica rinde homenaje a los grandes clásicos de la cocina argentina, con platos elaborados con ingredientes seleccionados, recetas que conservan su esencia y una especial atención a cada detalle. Desde un tradicional puchero hasta nuestras especialidades de la casa, cada preparación refleja nuestra pasión por la gastronomía y nuestro compromiso de ofrecer una experiencia auténtica, donde la calidad y el buen sabor son siempre protagonistas.
+                    </p>
+                </div> 
+                <figure>
+                    <img src="assets/gastronomia6.jpg" alt="Puchero"/>
+                    <figcaption>
+                    Nuestro Puchero. Un clásico de nuestro país. Un clásico de Romanno.
+                    </figcaption>
+                </figure>
+            </section>
+            <section class="inicio_postre">
+                <figure>
+                    <img src="assets/gastronomia4.jpg" alt="Luna de Valencia"/>
+                    <figcaption>
+                        Volcán de chocolate con crema helada. Un postre que todos quieren probar.
+                    </figcaption>
+                </figure>
+                <div>
+                    <h2>Desde 1990</h2>
+                    <p>
+                        Desde 1990, Romanno es mucho más que un restaurante. Es un lugar de encuentro donde las historias se comparten, las celebraciones se disfrutan y los momentos especiales se convierten en recuerdos inolvidables. A lo largo de más de tres décadas, hemos recibido a distintas generaciones de familias, amigos y parejas que nos eligen para disfrutar de una buena mesa en un ambiente cálido y elegante. Nuestra historia se construye día a día, manteniendo viva la esencia que nos acompaña desde nuestros comienzos: la hospitalidad, la atención personalizada y el compromiso de hacer que cada visita sea una experiencia especial. Porque en Romanno, las mejores historias siempre comienzan alrededor de una mesa.
+                    </p>
+                </div>
+
+        </div>
 
     
     </main>
 
         <!-- FOOTER -->
     <footer>
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <h3>¿Dónde nos encontras?</h3>
-            <p>Estamos ubicados en Av. Callao 248, Ciudad Autónoma de Buenos Aires</p>
-            <h3>Escribinos</h3>
-            <p>Whatsapp: +54 9 11 3314-2064</p>
-            <p>contacto@rufinacafe.com.ar</p>
-            <h3>Llamanos</h3>
-            <p>Teléfono: 4389-6519</p>
-        </section>
-        <p>Copyright 2026 Rufina Café. Todos los derechos reservados.</p>
+        <div class="columnas_footer">
+            <section>
+                <figure>
+                    <img src="assets/logoromanno.png" class="logo" alt="Logo Romanno"/>
+                </figure>
+            </section>
+            <section>
+                <ul class="ul_footer">
+                    <li>Dirección: Av. Callao 248. Ciudad Autónoma de Buenos Aires</li>
+                    <li>Whatsapp: +54 9 11 1168-9543</li>
+                    <li>Martes a Domingos de 08:00 a 00:00 hs</li>
+                </ul>
+            </section>
+            <section>  
+                <ul class="ul_footer">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="./pages/reservas.html">Reservas</a></li>
+                    <li><a href="./pages/galeria.html">Galería</a></li>
+                    <li><a href="./assets/carta_romanno.pdf" target="_blank">Carta</a></li>
+                    <li><a href="./pages/nuestra_cava.html">Nuestra Cava</a></li>
+                    <li><a href="./pages/contacto.html">Contacto</a></li>
+                </ul>
+            </section>
+            <section>
+                <a href="https://www.instagram.com/" target="_blank"><img src="./assets/instagram.png" class="logo_redes" alt="Instagram Romanno"/></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="./assets/facebook.png" class="logo_redes" alt="Facebook Romanno"/></a>
+                <a href="https://www.tiktok.com/" target="_blank"><img src="./assets/tiktok.png" class="logo_redes" alt="TikTok Romanno"/></a>
+            
+            </section>
+        </div>
+        <section class="copyright">
+            <p>Copyright 2026 Romanno Restaurante. Todos los derechos reservados.</p>
+        </section>    
     </footer>
 </body>
 </html>
